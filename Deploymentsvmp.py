@@ -10,6 +10,13 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import pickle
 
+from openpyxl import load_workbook
+wb = load_workbook('month_wise_medak_3.xlsx')
+ws = wb.active
+df = ws.values
+columns = next(df)[0:]
+dz = pd.DataFrame(df, columns=columns)
+
 st.markdown('<p style ="text-align: center; color:Green; font-size: 40px;font-family:serif;" >🌾 CROP RECOMENDATION APP 🌾 </p>',unsafe_allow_html=True)    
 st.markdown('<p style ="color:#085A71; font-size: 20px;font-family:monospace;" >Welcome!!🙏 to Crop Recomendation App</p>',unsafe_allow_html=True)
 
@@ -20,7 +27,7 @@ crop_recommendation_model = pickle.load(
 month = st.selectbox("Select Month",['Select one','Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Oct','Nov','Dec'])
 
 def main():
-    s = pd.read_excel("C:/Users/ADMIN/Downloads/month_wise_medak_3.xlsx")
+    s = dz
     labelencoder = LabelEncoder()
 
     labelencoder.fit(["0","yes","no"])
