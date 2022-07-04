@@ -21,7 +21,7 @@ st.markdown('<p style ="text-align: center; color:Green; font-size: 40px;font-fa
 st.markdown('<p style ="color:#085A71; font-size: 20px;font-family:monospace;" >Welcome!!🙏 to Crop Recomendation App</p>',unsafe_allow_html=True)
 
 crop_recommendation_model_path = open("SVMP_pkl_filename.pkl","rb")
-crop_recommendation_model=pickle.load(emp_perf_model_path)
+crop_recommendation_model=pickle.load(crop_recommendation_model_path)
 
 month = st.selectbox("Select Month",['Select one','Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Oct','Nov','Dec'])
 
