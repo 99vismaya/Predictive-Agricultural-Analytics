@@ -121,7 +121,7 @@ cd = st.sidebar.multiselect("Crop duration",options = v['duration_in_months'].un
 cc = st.sidebar.multiselect("Cost of cultivation",options = v['cost_of_cultivation_rs_per_ac'].unique(),default =v['cost_of_cultivation_rs_per_ac'].unique())
 m = v.query("crop_type == @ct & Soil_type == @soil & crop_term == @cp & duration_in_months == @cd & cost_of_cultivation_rs_per_ac == @cc")
 st.markdown('<p style ="color:Chocolate; font-size: 25px;font-family:serif;" >TOP 10 RECOMMENDED CROPS</p>',unsafe_allow_html=True)
-st.write(m)
+st.table(m)
 
 a = v.melt("Crop",value_vars=["cost_of_cultivation_rs_per_ac","net_profit(rs/ac)"])
 
