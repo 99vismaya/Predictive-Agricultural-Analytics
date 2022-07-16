@@ -18,3 +18,5 @@ As output variable was categorical, classification models were trained and SVM p
 # Deployment
 
 Streamlit framework was used for app building. Top 10 crop based on ROI is displayed when month for sowing is selected.Filters are added to filter the crops based on farmers need. A graph comparing ROI and cost of cultivation for crops displayed for the month selected is shown. As we have one time sown and mutiple time harvesting crops like apple that is long term crop, farmers can grow combination of crop with main crop. Mixed crop combination for crops that can be grown in given month is displayed.
+
+App Link:https://kisan01.herokuapp.com/
