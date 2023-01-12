@@ -13,7 +13,7 @@ Data was collected from Telangana.gov.in and other different sources, certain in
 
 # Model building
 
-As output variable was categorical, classification models are trained and SVM polynomial model with 94% accuracy is selected for model building
+As output variable was categorical, classification models are trained. Decission tree, Random forest, Support Vector Machine(SVM), Naive Bayes are the models which were trained and SVM polynomial model with 94% accuracy is selected for model building.
 
 # Deployment
 
