@@ -23,7 +23,10 @@ App Link:https://99vismaya-predictive-agricultural-analytics-app-ami7k5.streamli
 
 # App 
 ![image](https://user-images.githubusercontent.com/106010576/211984736-f8e95091-dc92-45e6-ab1e-44cf24ea8088.png)
+
 ![image](https://user-images.githubusercontent.com/106010576/211984806-9f27fe00-63de-49c8-a85b-d404f43b89ea.png)
+
 ![image](https://user-images.githubusercontent.com/106010576/211984838-ea5a5054-1b32-4dba-8472-5fd6089ffb4c.png)
+
 ![image](https://user-images.githubusercontent.com/106010576/211984857-b7417d89-dfe8-4135-b506-ccf511d62016.png)
 
