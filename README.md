@@ -17,7 +17,7 @@ As output variable was categorical, classification models are trained. Decission
 
 # Deployment
 
-Streamlit framework is used for app building. Streamlit cloud platfrom for used for cloud deployment. Top 10 crop based on ROI is displayed when month for sowing is selected.Filters are added to filter the crops based on farmers need. A graph comparing ROI and cost of cultivation for crops for the month selected is shown. As we have one time sown and mutiple time harvesting crops like apple that is long term crop, farmers can grow combination of crop with main crop. Mixed crop combination for crops is displayed.
+Streamlit framework is used for app building.Cloud deployment is done in Streamlit cloud platfrom . Top 10 crop based on ROI is displayed when month for sowing is selected.Filters are added to filter the crops based on farmers need. A graph comparing ROI and cost of cultivation for crops for the month selected is shown. As we have one time sown and mutiple time harvesting crops like apple that is long term crop, farmers can grow combination of crop with main crop. Mixed crop combination for crops is displayed.
 
 App Link:https://99vismaya-predictive-agricultural-analytics-app-ami7k5.streamlit.app/
 
