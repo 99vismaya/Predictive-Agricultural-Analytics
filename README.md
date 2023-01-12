@@ -13,11 +13,11 @@ Data was collected from Telangana.gov.in and other different sources, certain in
 
 # Model building
 
-As output variable was categorical, classification models are trained. Decission tree, Random forest, Support Vector Machine(SVM), Naive Bayes are the models which were trained and SVM polynomial model with 94% accuracy is selected for model building.
+As output variable was categorical, classification models are trained. Decission tree, Random forest, Support Vector Machine(SVM), Naive Bayes are some models trained and SVM polynomial model with 94% accuracy is selected for model building.
 
 # Deployment
 
-Streamlit framework is used for app building. Top 10 crop based on ROI is displayed when month for sowing is selected.Filters are added to filter the crops based on farmers need. A graph comparing ROI and cost of cultivation for crops for the month selected is shown. As we have one time sown and mutiple time harvesting crops like apple that is long term crop, farmers can grow combination of crop with main crop. Mixed crop combination for crops is displayed.
+Streamlit framework is used for app building. Streamlit cloud platfrom for used for cloud deployment. Top 10 crop based on ROI is displayed when month for sowing is selected.Filters are added to filter the crops based on farmers need. A graph comparing ROI and cost of cultivation for crops for the month selected is shown. As we have one time sown and mutiple time harvesting crops like apple that is long term crop, farmers can grow combination of crop with main crop. Mixed crop combination for crops is displayed.
 
 App Link:https://99vismaya-predictive-agricultural-analytics-app-ami7k5.streamlit.app/
 
