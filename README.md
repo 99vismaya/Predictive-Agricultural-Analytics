@@ -22,11 +22,15 @@ Streamlit framework is used for app building. Top 10 crop based on ROI is displa
 App Link:https://99vismaya-predictive-agricultural-analytics-app-ami7k5.streamlit.app/
 
 # App 
+Crop recomendation for selected month
 ![image](https://user-images.githubusercontent.com/106010576/211984736-f8e95091-dc92-45e6-ab1e-44cf24ea8088.png)
 
+Adding filters
 ![image](https://user-images.githubusercontent.com/106010576/211984806-9f27fe00-63de-49c8-a85b-d404f43b89ea.png)
 
+Plot of Crops VS Cost of Cultivation and Profit
 ![image](https://user-images.githubusercontent.com/106010576/211984838-ea5a5054-1b32-4dba-8472-5fd6089ffb4c.png)
 
+Recomendation of Mixed Crop combinations
 ![image](https://user-images.githubusercontent.com/106010576/211984857-b7417d89-dfe8-4135-b506-ccf511d62016.png)
 
